@@ -1,0 +1,73 @@
+<!DOCTYPE HTML> 
+<HEAD>
+<TITLE>График</TITLE>
+<link href="Form222.css" rel="stylesheet" type="text/css" >
+</HEAD>
+<BODY>
+<!-- вывод на экран заголовка  -->
+<B><CENTER>Интерфейс страницы</CENTER></B>
+<br>
+<hr>
+<br>
+
+  
+
+<form action="/action_page.php" class="your-form-selector">
+  C: <span style='padding-left:11px;'> </span>
+  <input type="datetime-local" name="nach" class="your-form-selector">
+  <span style='padding-left:11px;'> </span>
+  Свет: <span class="your-form-selector" style='padding-left:14px;'> </span>
+  
+</form>  
+
+
+
+<form action="/action_page.php" class="your-form-selector">
+<div >k<sub>1</sub> = <input type="text" value="0" size="20">;
+<span style='padding-left:10px;'> </span>
+b<sub>1</sub> = <input type="text" 
+value="0" size="20"></div>
+</form>
+
+<form action="/action_page.php" name="as">
+  По:<span style='padding-left:1px;'> </span>
+  <input type="datetime-local"  name="endd">
+  <span style='padding-left:10px;'> </span>
+  Почва: <span style='padding-left:10px;'> </span>
+k<sub>2</sub> = <input type="text" value="0" size="20">; 
+<span style='padding-left:10px;'> </span>
+b<sub>2</sub> = 
+<input type="text" name="name4" value="4" size="20">
+  
+  
+  <input type="button" value="Нарисовать" onClick="ab() ;">
+</form>  
+<BR>
+<BR>
+    
+ <!-- Отрисовка графиков -->
+<meta name="author" http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<!-- - -->
+
+<!-- - -->
+
+
+
+<div id="container1" name="grafi" onClick="ab1() ;" style="width: 1200px; height: 400px "></div>
+<input name="CountData" type="hidden" value="<?=$CountData?>">
+<BR>
+    <BR>
+        
+        <div>Переменная из php:
+            <span><?php echo $f; ?></span>
+        </div>
+
+   
+ 
+   
+</BODY>
+
+
+
+
